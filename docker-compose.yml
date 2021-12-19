@@ -1,0 +1,8 @@
+version: '2'
+ 
+services:
+  minecraft:
+    image: 
+    ports:
+      - "25565:25565"
+    restart: always
