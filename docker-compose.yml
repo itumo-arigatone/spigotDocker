@@ -1,8 +1,9 @@
 version: '2'
  
 services:
-  minecraft:
-    image: 
+  spigot:
+    image: unkomorasi01/spigot:1.18.1
     ports:
       - "25565:25565"
-    restart: always
+    # volumes:
+    # - ./test:/minecraft_data
