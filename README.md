@@ -9,3 +9,8 @@ Where to put the plugins
 ```
 /minecraft_data/minecraft/plugins
 ```
+
+copy command memo
+```
+docker cp {project}/target/*.jar <containerID>:/minecraft_data/minecraft/plugins/
+```
